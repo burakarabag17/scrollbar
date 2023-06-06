@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    color: white;
+    padding: 50px;
+}
+
+body{
+    background-color: rgb(146, 146, 146);
+}
+
+h2{
+    color: #5c0f88;
+    font-size: 70px;
+    padding: 20px;
+    font-family: Georgia;
+}
+
+p{
+    color: black ;
+    font-size: 33px;
+    font-family: Verdana;
+    margin: 0 20px;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#2E0249, #5800FF);
+    border: solid 2px;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(#3a065b, #4b08c7);
+}
